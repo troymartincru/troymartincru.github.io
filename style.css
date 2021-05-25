@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+.textbox {
+  background-color: #d6d6d6;
+  width: 80%;
+  margin: 10%;
+  padding-top: 7%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 7%;
+  float: left;
+  opacity: 0.8;
+  justify-content: center;
+  font-size: 20px;
+  color: #404040;
+}
+
+.sideBySide {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding-top: 10em;
+  justify-content: center;
+}
+
+#firstPicDiv {
+  background-image: url('coverPic.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  justify-content: center;
+  height: 100%;
+}
+
+.fullScreenShadow {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.fullScreen {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 150px;
+  font-weight: 200;
+  color: #ffffff;
+  font-family: 'Garamond', serif;
+  width: 100%;
+  margin: auto;
+  padding-top: 15%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 200;
+  color: #ffffff;
+  font-family: 'Garamond', serif;
+  width: 100%;
+  height: 50%;
+  margin: auto;
+  padding: 1em;
+}
+
+html, body {
+  height: 100%;
+  margin: 0%;
+}
+
+body {
+  background-color: #d6d6d6;
+  font-family: Helvetica, sans-serif;
+}
+
+img {
+  padding: 15px;
+  margin: 0%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .sideBySide, .textbox {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+}
