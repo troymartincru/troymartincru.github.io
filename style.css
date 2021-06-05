@@ -142,7 +142,7 @@ footer {
   .sideBySide {
     width: 100%;
     height: 100vh;
-    padding-top: 15vh;
+    padding-top: 5vh;
   }
 
   .sideBySideEmpty {
@@ -151,7 +151,7 @@ footer {
   }
 
   .textbox {
-
+    font-size: 4vh;
   }
 
   .fullScreen {
