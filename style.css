@@ -35,7 +35,7 @@
 }
 
 #firstPicDiv {
-  background-image: url('coverPic.jpg');
+  background-image: url('coverPic2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -53,7 +53,7 @@
 }
 
 #cruPicDiv {
-  background-image: url('cruPic.jpg');
+  background-image: url('cruPic2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -140,6 +140,19 @@ footer {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+
+  #firstPicDiv {
+    background-image: url('coverPicMobile.jpg');
+  }
+
+  #campusPicDiv {
+    background-image: url('campusPicMobile.png');
+  }
+
+  #cruPicDiv {
+    background-image: url('cruPicMobile.jpg');
+  }
+
   .sideBySide {
     width: 100%;
     height: 100vh;
